@@ -1,0 +1,25 @@
+---
+name: Mobs
+version: 1.0.0
+main: fraganzas\entity-master\main
+api:
+- 4.2.0
+author: fraganzas
+commands:
+  killmobs:
+    usage: /killmobs
+    description: Kill all Mobs
+    permission: mobs.operator
+  listmobs:
+    usage: /listmobs
+    description: List all Mobs
+    permission: mobs.operator
+  summon:
+    usage: /summon <type> [quantity]
+    description: Summon a Mob
+    permission: mobs.operator
+permissions:
+  mobs.operator:
+    description: allow using mob commands
+    default: op
+...
